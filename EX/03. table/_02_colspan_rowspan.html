@@ -11,9 +11,14 @@
             border-collapse: collapse;
         }
 
+        /* tr을 height를 줘야 tr 내용이 없더라도 30px로 잡혀서 rowspan 잘 적용된다. */
+        tr {
+            height: 30px;
+        }
+
         th, td {
-            width: 100px;
-            height: 15px;
+            width: 200px;
+            height: 30px;
         }
     </style>
 </head>
