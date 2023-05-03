@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품 주문서</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        li {
+            height: 30px;
+            margin: 5px;
+            align-self: auto;
+        }
+
+        fieldset {
+            margin: 10px;
+        }
+
+        input {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>상품 주문서</h1>
+    <form>
+        <fieldset>
+            <legend style="color: blueviolet;">
+                <b>개인 정보</b> 
+            </legend>
+            <ul>
+                <li>
+                    <label for="userName"><b>이름</b></label>
+                    <input type="text" placeholder="여백없이 입력">
+                </li>
+                <li>
+                    <label for="userPhone"><b>연락처</b></label>
+                    <input type="tel" placeholder="연락가능한 번호">
+                </li>
+            </ul>  
+        </fieldset>
+        <fieldset>
+            <legend style="color: blueviolet;">
+                <b>배송지 정보</b> 
+            </legend>
+            <ul>
+                <li>
+                    <label for="userAddr"><b>주소</b></label>
+                    <input type="text">    
+                </li>
+                <li>
+                    <label for="Phone"><b>전화번호</b></label>
+                    <input type="tel">    
+                </li>
+                <li>
+                    <label for="Memo"><b>메 모</b></label>
+                    <textarea></textarea>    
+                </li>
+            </ul>   
+        </fieldset>
+        <fieldset>
+            <legend style="color: blueviolet;">
+                <b>주문 정보</b> 
+            </legend>
+            <ul>
+                <li>
+                    <input type="checkbox" value="goods1">과테말라 안티구아 (100g)</b></label>
+                    <input style="width: 50px;" type="number" value=0> 개
+                </li>
+                <li>
+                    <input type="checkbox" value="goods2">인도네시아 만델링 (100g)</b></label>
+                    <input style="width: 50px;" type="number" value=0> 개
+                </li>
+                <li>
+                    <input type="checkbox" value="goods3">탐라는도다(블렌딩) (100g)</b></label>
+                    <input style="width: 50px;" type="number" value=0> 개
+                </li>
+            </ul> 
+        </fieldset>
+    </form>
+    
+</body>
+</html>
