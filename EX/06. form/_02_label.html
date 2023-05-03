@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input 태그에 제목을 달아주는 label</title>
+    <style>
+        ul {
+            /* list-style-type: none; */
+            list-style: none; /* 이렇게 주면 그냥 리스트 테두리 선을 없앤다?*/
+        }
+
+        li {
+            margin: 20px; /*간격을 설정한다.*/
+        }
+
+        li label {
+            width: 70px;
+            /* float: left; 왼쪽에 떠있게 한다. 레이어가 달라지게 하는 기능이다. */
+            font-size: 14px;
+            font-weight: bold; /* 글자 진하게, 옅게 설정 */
+            line-height: 25px; /* 줄간격 크기 지정한다. */
+        }
+    </style>
+</head>
+<body>
+    <!-- form>ul -->
+    <form action="/user/login" method="post"> <!--비번은 보안에 좋은 post-->
+        <ul>
+            <li>
+                <label>아이디
+                    <input type="text">
+                </label>
+            </li>
+            <li>
+                <label for="userPw">비밀번호
+                    <input type="password" id="userPw">
+                </label>
+            </li>
+            <li>
+                <input type="submit" value="로그인">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
+
+<!-- float, margin? 주의해서 쓰는게 좋다. label 태그에서 설정할 수도 있다. -->
