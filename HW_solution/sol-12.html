@@ -38,6 +38,11 @@
 		label, .inp, #uname {
 			color: red
 		}
+		label {
+			display: inline-block;/* 인라인 요소는 즉 한줄 다 차지하지 않고 옆에 들어가는 친구는 width가 바로 안먹힌다. display 써야 한다.*/
+			width: 100px;
+		}
+
 	</style>	
 </head>
 <body>
