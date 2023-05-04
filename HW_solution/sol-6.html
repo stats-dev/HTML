@@ -1,37 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1인당 연간 설탕 소비량</title>
+    <title>Document</title>
     <style>
-        table, th, td{
-            border: 1px solid black;
-        }
-
-        tr {
-            height: 30px;
-        }
-
-        th, td {
-            width: 120px;
-            height: 30px;
-        }
-
-        td {
-            padding-left: 10px;
+        table {
+            width:250px;
         }
     </style>
 </head>
 <body>
-    <table>
-        <caption>
-            1인당 연간 설탕 소비량&nbsp;<small>(단위:kg)</small>
-        </caption>
-
+    <!--table[border="1"]>(caption>small)+(colgroup>col[style="background-color: rgb(221, 221, 221);"]+col)+(tr>th+td)*7-->
+    <table border="1">
+        <caption>1인당 연간 설탕 소비량&nbsp;<small>(단위:kg)</small></caption>
         <colgroup>
-            <col style="background-color: lightgray;">
+            <col style="background-color: rgb(221, 221, 221);">
+            <col>
         </colgroup>
         <tr>
             <th>WHO권장량</th>
@@ -62,9 +48,5 @@
             <td>23</td>
         </tr>
     </table>
-
-
-
 </body>
 </html>
-
