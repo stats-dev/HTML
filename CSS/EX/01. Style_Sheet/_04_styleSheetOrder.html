@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일 시트 적용 순서</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"> <!--링크로 외부스타일도 걸어준다.-->
+    <style>
+        h1, h3 {
+            color: red;
+        }   
+    </style>
+</head>
+<body>
+    <h1 style="color: green">스타일시트 적용 순서</h1>     <!--내부 인라인이 최우선 적용되고, 내부스타일 위에 넣고, 마지막이 외부스타일 적용된다.-->
+    <h3>스타일시트 적용 순서</h3>
+    <h5>스타일시트 적용 순서</h5>
+</body>
+</html>
