@@ -1,0 +1,8 @@
+p {
+    width: 50px;
+    /* nowrap: 여러개의 공백을 하나로 처리하되 영역을 넘어가는 내용은 줄을 바꾸지 않고 그대로 표시 */
+    /* white-space: nowrap; */
+    /* white-space: pre;  */     /* 한줄로 하되 공백 그대로 표기 */
+    /* white-space: pre-line; */
+    white-space: pre-wrap; /* 공백은 그대로, 영역넘어가면 줄바꿈 */
+}
