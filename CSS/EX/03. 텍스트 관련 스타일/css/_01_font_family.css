@@ -1,0 +1,7 @@
+/* https://fonts.google.com/ 을 참고한다. Use on Web에서 주소를 복사해서 붙여넣기. */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+.webfont {
+    /* CSS rules to specify families을 가져온다. */
+    font-family: 'Nanum Pen Script', cursive;
+}
