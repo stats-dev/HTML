@@ -1,0 +1,19 @@
+h1, h2 {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* 그룹 선택자, 공통 스타일은 아래처럼 콤마로 붙이기 */
+.bluetxt, .greentxt, #green {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bluetxt {
+    color: blue;
+}
+
+.greentxt, #green {
+    color: green;
+}
+
