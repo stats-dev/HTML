@@ -1,0 +1,32 @@
+.txt1 {
+    /* font: font-style의 속성 값 font-size의 속성값/line-height의 속성값 font-weight의 속성값 font-variant의 속성값 font-family의 속성값 */
+    font: italic bolder 15px/20px;  /* bold는 키워드로만 지정하라 */
+}
+
+.txt2 {
+    font: lighter small-caps 30px/40px; /* font-size 관련보다 앞에 다 와야 합니다. */
+}
+
+.cap {
+    font: caption;
+}
+
+.icon {
+    font: icon;
+}
+
+.menu {
+    font: menu;
+}
+
+.scap {
+    font: small-caption;
+}
+
+.stbar {
+    font: status-bar;
+}
+
+.mbox {
+    font: message-box;
+}
