@@ -15,5 +15,6 @@ p.txt1 {
 
 /* 태그 전체가 아닌 특정 부분에만 스타일을 적용하고 싶을 때는 span태그로 감싸서 지정 */
 .txt4 {
+    font-size: 20px;
     font-weight: bold;
 }
