@@ -4,7 +4,7 @@ div {
     border: 1px solid black;
     margin: 20px;
     padding: 20px;
-    background-image: url('../../kakao.png');
+    background-image: url('../../bit.png');
     background-repeat: no-repeat;
     background-position: left top; /* 왼쪽 위에 이미지 띄워 */
 }
