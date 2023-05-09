@@ -1,0 +1,9 @@
+.lan1 {
+    /* 소문자 알파벳 */
+    list-style-type: lower-alpha;
+}
+
+.lan2 {
+    /* 대문자 로마숫자 */
+    list-style-type: upper-roman;
+}
