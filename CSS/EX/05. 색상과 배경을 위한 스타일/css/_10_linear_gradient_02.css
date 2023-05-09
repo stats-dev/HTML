@@ -1,0 +1,14 @@
+div {
+    width: 500px;
+    height: 300px;
+}
+
+.box {
+    background: red;
+    /* 브라우저 넣을 때는 to 키워드 방향을 지정해서는 안된다. */
+    background: -webkit-linear-gradient(45deg, red, white);
+    background: -moz-linear-gradient(45deg, red, white);
+    background: -o-linear-gradient(45deg, red, white);
+    /* to 키워드는 각도가 아니라 방향만 지정할 수 있다. */
+    background: linear-gradient(45deg, red, white);
+}
