@@ -1,0 +1,13 @@
+div {
+    width: 500px;
+    height: 300px;
+}
+
+.box1 {
+    background: blue;
+    background: -webkit-radial-gradient(10% 10%, circle, white, blue);
+    background: -moz-radial-gradient(10% 10%, circle, white, blue);
+    background: -o-radial-gradient(10% 10%, circle, white, blue);
+    /* 표준화는 circle이 먼저오고 at 키워드로 조정한다. */
+    background: radial-gradient(circle at 10% 10%, white, blue); 
+}
