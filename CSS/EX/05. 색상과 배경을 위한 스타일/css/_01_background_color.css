@@ -15,7 +15,12 @@ h1 {
 }
 
 p {
-    background-color: rgba(180, 180, 230, .5);
+    background-color: rgba(180, 180, 230, 1);
     line-height: 30px;
+    border: 10px solid rgba(0, 0, 0, .1);
+    padding: 20px;
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    background-clip: content-box;
 }
 
