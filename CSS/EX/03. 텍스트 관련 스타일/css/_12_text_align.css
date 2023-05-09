@@ -17,6 +17,15 @@ p {
     text-align: center;
 }
 
-.justify {
+.justify1 {
     text-align: justify; /*양쪽 정렬*/
+}
+
+.justify2 {
+    text-align: justify;
+    /* inter-word: 단어 사이의 공백을 조절해 정렬 */
+    /* text-justify: inter-word; */
+    /* -webkit-text-justify: inter-word;
+    -ms-text-justify: inter-word;  지원이 안된다!!*/
+    text-justify: distribute;
 }
