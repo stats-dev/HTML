@@ -1,0 +1,11 @@
+ul {
+    list-style-image: url('../../dot.png');
+}
+
+.inside {
+    list-style-position: inside;
+}
+
+.outside {
+    list-style-position: outside;
+}
