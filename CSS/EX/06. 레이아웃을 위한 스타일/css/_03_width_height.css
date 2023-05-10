@@ -1,0 +1,20 @@
+div {
+    margin: 10px;
+}
+
+.box1 {
+    background: orange;   
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+.box2 {
+    background: skyblue;
+    width: 50%;
+    /* body에 내용이 없으니 div의 height로 잡힌다. %가 아니라 크기로 준다. */
+    height: 300px; 
+    /* width: auto;
+    height: auto; */
+}

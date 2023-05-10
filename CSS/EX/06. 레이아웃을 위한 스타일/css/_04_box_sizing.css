@@ -1,0 +1,23 @@
+div {
+    margin: 10px;
+}
+
+.box1 {
+    background: orange;   
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid black;
+    /* content만 길이를 포함해서 출력한다. */
+    box-sizing: border-box;
+}
+
+.box2 {
+    background: orange;   
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid black;
+    /* border까지의 길이를 모두 포함한다. */
+    box-sizing: content-box;
+}
