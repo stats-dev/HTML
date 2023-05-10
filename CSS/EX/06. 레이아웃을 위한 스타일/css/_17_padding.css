@@ -1,0 +1,34 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    display: inline-block;
+    border: 5px solid black;
+    margin: 15px;
+    background-clip: content-box;
+}
+
+
+.box1 {
+    /* padding: 10px 30px 10px 30px; */
+    padding: 10px 30px;
+}
+
+
+.box2 {
+    /* 대칭 방향 기준으로 동일한 5px가 들어갔다. 생략시.  상 좌우 하 */
+    padding: 10px 5px 15px;
+}
+
+
+.box3 {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+}
+
+.box4 {
+    padding: 5%;
+}
