@@ -1,0 +1,28 @@
+div {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+span {
+    color: white;
+}
+
+.box1 {
+    background: red;   
+}
+
+.box2 {
+    background: green;
+}
+
+.box3 {
+    background: blue;
+}
+
+.block span {
+    /* block 레벨로 들어가면서 다양한 인라인레벨 요소를 블록 레벨 속성으로 가져온다. */
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}

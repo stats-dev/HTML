@@ -1,0 +1,16 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: lightgreen;
+}
+
+.none {
+    /* 아예 공간이 잡히지 않는다. */
+    display: none;
+}
+
+.hidden {
+    /* 어떻게 다를까? */
+    visibility: hidden;
+}

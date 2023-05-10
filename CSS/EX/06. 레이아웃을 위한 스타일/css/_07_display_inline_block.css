@@ -1,0 +1,27 @@
+div {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.txt1 {
+    background: red;
+}
+
+.txt2 {
+    background: green;
+}
+
+.txt3 {
+    background: blue;
+}
+
+/* 인라인 블록은 box 모형이면서 인라인 태그로도 만든다. 다양하게 옵션을 제공할 수 있어서 inline-block 많이 쓴다. */
+.inline p {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
