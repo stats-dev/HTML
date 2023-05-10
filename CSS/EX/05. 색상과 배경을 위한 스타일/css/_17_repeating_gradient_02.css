@@ -1,0 +1,25 @@
+div {
+    width: 300px;
+    height: 300px;
+    margin: 10%;
+}
+
+.box1 {
+    /* white에서 #ccc로 가는 효과가 10%씩 검색 된다. */
+    background: #ccc;
+    background: -webkit-repeating-radial-gradient(white, #ccc 10%);
+    background: -moz-repeating-radial-gradient(white, #ccc 10%);
+    background: -o-repeating-radial-gradient(white, #ccc 10%);
+    background: repeating-radial-gradient(white, #ccc 10%);
+}
+
+.box2 {
+    background: #ccc;
+    /* white, #ccc 반복되는 선-원형그라디언트 */
+    /* 흰색에서 10%로 그라데이션 주고, ccc는 10에서 20% 그라데이션 제공. */
+    background: -webkit-repeating-radial-gradient(white, white 10%, #ccc 10%, #ccc 20%);
+    background: -moz-repeating-radial-gradient(white, white 10%, #ccc 10%, #ccc 20%);
+    background: -o-repeating-radial-gradient(white, white 10%, #ccc 10%, #ccc 20%);
+    background: repeating-radial-gradient(white, white 10%, #ccc 10%, #ccc 20%);
+}
+
