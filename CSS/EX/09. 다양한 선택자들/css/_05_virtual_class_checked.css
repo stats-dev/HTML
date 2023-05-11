@@ -1,10 +1,11 @@
-input[name="language"]:checked {
+input[name="language"]:checked + span {
+    /* + 는 형제 선택자 같은 레벨 태그 연결 */
     /* 선택된 것에 대한 속성 지정 */
     color: red;
 }
 
-
-input[name="favorite"]:checked {
+/* check만 되면 색상도 바뀌게끔 다 하는 것입니다. */
+input[name="favorite"]:checked + span {
     color: aqua;
 }
 
