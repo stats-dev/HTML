@@ -1,0 +1,19 @@
+table {
+    border: 1px solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+}
+
+th, td {
+    border: 1px dotted navy;
+}
+
+
+td {
+    /* td에 패딩 주면 조금 떨어진 것처럼 표출 가능. */
+    /* padding: 20px; */
+    /* text-align만 변경해도 좌우중앙 정렬 가능함. */
+    text-align: right;
+}

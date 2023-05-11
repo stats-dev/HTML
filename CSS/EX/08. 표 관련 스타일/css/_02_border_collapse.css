@@ -1,0 +1,11 @@
+table {
+    border: 1px solid black;
+    caption-side: bottom;
+    /* 이렇게 주면 합쳐서 하나로 만든다. 일종의 병합 느낌. */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px dotted navy;
+}
+
