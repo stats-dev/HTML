@@ -1,0 +1,14 @@
+input[name="language"]:checked {
+    /* 선택된 것에 대한 속성 지정 */
+    color: red;
+}
+
+
+input[name="favorite"]:checked {
+    color: aqua;
+}
+
+input{
+    color: black;
+}
+
