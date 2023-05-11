@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+    /* display: inline-block; */
+}
+
+
+.box1 {
+    background-color: orange;
+}
+
+.box2 {
+    background-color: aqua;
+    position: relative;
+    /* 위쪽 box1을 부모태그로 잡고 기준으로 150px 떨어뜨린 곳에 위치 */
+    /* left, right 동시에 적용하는 경우는 드물다 */
+    left: 150px;
+    /* top은 위에 배치된 요소가 없음. 브라우저 기준 20px 거리 둠. */
+    /* top, bottom을 동시에 적용하는 경우는 드물다 */
+    top: 20px;
+}
