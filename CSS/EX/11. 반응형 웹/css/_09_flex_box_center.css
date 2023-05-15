@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 100vh : 디스플레이의 100% 제공 */
+    min-height: 100vh;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}

@@ -1,0 +1,41 @@
+.container {
+    width: 800px;
+    height: 200px;
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px;
+}
+
+
+.box1 {
+    background: red;
+}
+
+.box2 {
+    background: blue;
+}
+
+.box3 {
+    background: green;
+}
+
+.box4 {
+    background: brown;
+}
+
+.box5 {
+    background: violet;
+}
+
+.box6 {
+    background: yellow;
+}
+
+.box7 {
+    background: aqua;
+}
+
+.box8 {
+    background: yellowgreen;
+}
