@@ -1,10 +1,16 @@
 .container {
-    width: 800px;
+    /* width: 1000px; */
     height: 200px;
     box-sizing: content-box;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 100px;
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    /* 상대적인 크기로 제공 fr*/
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;  */
+    /* 이렇게 각각을 1:2:2:1로 지정할 수도 있다. */
+    /* grid-template-columns: 1fr 2fr 2fr 1fr; */
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: 100px; */
+    grid-template-rows: minmax(100px, auto);
 }
 
 
