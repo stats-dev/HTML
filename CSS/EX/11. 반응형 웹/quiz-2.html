@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>연습문제 2</title>
+	<style>	
+		#container {
+			width:200px;
+			margin:30px auto;
+			perspective: 200px;
+		}
+    img {
+      border:1px solid #ccc;
+      border-radius:50%;      
+      box-shadow: 5px 5px 30px 2px #000;
+	  animation-name: identifier;
+	  animation-duration: 3s;
+    }
+
+	/* keyframes는 animation-name으로 연결하고, 무조건 animation-duration을 통해 시간을 줘야 애니메이션이 움직인다. */
+	@keyframes identifier {
+		0% {
+			transform: rotateY(0deg);
+		}
+		50% {
+			transform: rotateY(180deg);
+		}
+		100% {
+			transform: rotateY(360deg);
+		}
+
+	}
+	</style>
+</head>
+
+<body>
+  <div id="container">
+	  <img src="bear.jpg" alt="곰인형 사진">
+  </div>
+</body>
+</html>
