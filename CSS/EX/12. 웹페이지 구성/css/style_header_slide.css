@@ -13,6 +13,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 img {
@@ -75,4 +76,20 @@ ul {
 .header-wrap {
     display: flex;
     justify-content: space-around;
+}
+
+
+
+/* 3. 슬라이드 부분 */
+.main-carousal {
+    margin: 0 auto; /* 항상 가운데 */
+    position: relative;
+    top: -65px;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.main-carousal img {
+    width: 100%;
 }
