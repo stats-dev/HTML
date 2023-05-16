@@ -18,17 +18,31 @@ $(function() {
 // }
 function plusSlides(n) {
     // 현재 인덱스에서 앞/뒤로 가감한다.
-    showSlides(slideIndex + n); 
+    showSlides(slideIndex += n); 
 }
 
 function showSlides(n) {
     let i;
     // mySlides 클래스를 가지고 있는 태그들을 javascript 변수로 선언
-    const slides = document;
-    getElementsByClassName("mySlides");
+    const slides = document.getElementsByClassName("mySlides");
 
     // 현재 슬라이드 개수보다 n이 커지면 슬라이드 인덱스를 첫 번째로 변경
     if(n > slides.length) {
-        slidesIndex = 1;
+        slideIndex = 1;
     }
+
+    // n이 1보다 작아지면 마지막 슬라이드로 변경
+    if(n < 1) {
+        slideIndex = slides.length;
+    }
+
+
+    // 모든 슬라이드 숨김
+    for(i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';
+    }
+
+    //현재 선택된 슬라이드만 표출
+    slides[slideIndex - 1].style.display = 'block';
+
 }
