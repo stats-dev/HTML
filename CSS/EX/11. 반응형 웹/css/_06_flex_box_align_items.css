@@ -2,7 +2,7 @@
     display: flex;
     border: 1px solid black;
     margin-top: 30px;
-    /* height: 500px; */
+    height: 500px;
 }
 
 .container1 {
@@ -23,12 +23,12 @@
 
 .container5 {
     align-items: stretch;
-    height: 100px;
+    /* height: 100px; */
 }
 
 .box {
     width: 100px;
-    height: 100px;
+    /* height: 100px; 이게 없어야 정상 작동이 된다. */
     background-color: green;
     margin: 20px;
 }
