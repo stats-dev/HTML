@@ -42,9 +42,10 @@ ul {
 /*메뉴바 스타일 및 위치*/
 .cloud-type {
     z-index: 2;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     display: flex;
     left: 0;
+    border-bottom: 1px solid lightgray;
 }
 
 .cloud-type > li {
